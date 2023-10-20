@@ -8,7 +8,7 @@ public class Main {
         String message = String.format("""
                 My name is %s
                 I am %d years old
-                My hometown is %s                                
+                My hometown is %s                               \s
                 """, name, age, hometown );
         System.out.println(message);
     }
